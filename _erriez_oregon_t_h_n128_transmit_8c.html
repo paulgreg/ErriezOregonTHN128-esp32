@@ -92,23 +92,23 @@ Include dependency graph for ErriezOregonTHN128Transmit.c:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a4169bafe4d4f7e2feb774a3c7abcb4d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>RF_TX_PIN_INIT</b>(rfTxPin)</td></tr>
-<tr class="separator:a4169bafe4d4f7e2feb774a3c7abcb4d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a694b777f5ed3cb60c1eeaa1949efa364"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>RF_TX_PIN_DISABLE</b>()</td></tr>
-<tr class="separator:a694b777f5ed3cb60c1eeaa1949efa364"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ebea9272ca4869253eed00815d4d08c"><td class="memItemLeft" align="right" valign="top"><a id="a7ebea9272ca4869253eed00815d4d08c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>RF_TX_PIN_HIGH</b>()&#160;&#160;&#160;{ *portOutputRegister(_rfTxPort) |= _rfTxBit; }</td></tr>
-<tr class="separator:a7ebea9272ca4869253eed00815d4d08c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8aa831573d94970ee98d4b8375cdd7a3"><td class="memItemLeft" align="right" valign="top"><a id="a8aa831573d94970ee98d4b8375cdd7a3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>RF_TX_PIN_LOW</b>()&#160;&#160;&#160;{ *portOutputRegister(_rfTxPort) &amp;= ~_rfTxBit; }</td></tr>
-<tr class="separator:a8aa831573d94970ee98d4b8375cdd7a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4169bafe4d4f7e2feb774a3c7abcb4d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___transmit.html#ga4169bafe4d4f7e2feb774a3c7abcb4d2">RF_TX_PIN_INIT</a>(rfTxPin)</td></tr>
+<tr class="memdesc:ga4169bafe4d4f7e2feb774a3c7abcb4d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize RF transmit pin.  <a href="group___transmit.html#ga4169bafe4d4f7e2feb774a3c7abcb4d2">More...</a><br /></td></tr>
+<tr class="separator:ga4169bafe4d4f7e2feb774a3c7abcb4d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga694b777f5ed3cb60c1eeaa1949efa364"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___transmit.html#ga694b777f5ed3cb60c1eeaa1949efa364">RF_TX_PIN_DISABLE</a>()</td></tr>
+<tr class="memdesc:ga694b777f5ed3cb60c1eeaa1949efa364"><td class="mdescLeft">&#160;</td><td class="mdescRight">TX pin disable.  <a href="group___transmit.html#ga694b777f5ed3cb60c1eeaa1949efa364">More...</a><br /></td></tr>
+<tr class="separator:ga694b777f5ed3cb60c1eeaa1949efa364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7ebea9272ca4869253eed00815d4d08c"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___transmit.html#ga7ebea9272ca4869253eed00815d4d08c">RF_TX_PIN_HIGH</a>()&#160;&#160;&#160;{ *portOutputRegister(_rfTxPort) |= _rfTxBit; }</td></tr>
+<tr class="memdesc:ga7ebea9272ca4869253eed00815d4d08c"><td class="mdescLeft">&#160;</td><td class="mdescRight">TX pin high. <br /></td></tr>
+<tr class="separator:ga7ebea9272ca4869253eed00815d4d08c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8aa831573d94970ee98d4b8375cdd7a3"><td class="memItemLeft" align="right" valign="top">
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___transmit.html#ga8aa831573d94970ee98d4b8375cdd7a3">RF_TX_PIN_LOW</a>()&#160;&#160;&#160;{ *portOutputRegister(_rfTxPort) &amp;= ~_rfTxBit; }</td></tr>
+<tr class="memdesc:ga8aa831573d94970ee98d4b8375cdd7a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">TX pin low. <br /></td></tr>
+<tr class="separator:ga8aa831573d94970ee98d4b8375cdd7a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:affaf266082b6c68904693923e236430d"><td class="memItemLeft" align="right" valign="top"><a id="affaf266082b6c68904693923e236430d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_erriez_oregon_t_h_n128_transmit_8c.html#affaf266082b6c68904693923e236430d">delay100ms</a> (void)</td></tr>
-<tr class="memdesc:affaf266082b6c68904693923e236430d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmit sync pulse. <br /></td></tr>
-<tr class="separator:affaf266082b6c68904693923e236430d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51a384059b65f0dada8d771a17c6b289"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_erriez_oregon_t_h_n128_transmit_8c.html#a51a384059b65f0dada8d771a17c6b289">OregonTHN128_TxBegin</a> (uint8_t rfTxPin)</td></tr>
 <tr class="memdesc:a51a384059b65f0dada8d771a17c6b289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmit begin.  <a href="#a51a384059b65f0dada8d771a17c6b289">More...</a><br /></td></tr>
 <tr class="separator:a51a384059b65f0dada8d771a17c6b289"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,43 +127,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_err
 <p>Source: <a href="https://github.com/Erriez/ErriezOregonTHN128">https://github.com/Erriez/ErriezOregonTHN128</a> Documentation: <a href="https://erriez.github.io/ErriezOregonTHN128">https://erriez.github.io/ErriezOregonTHN128</a> </p>
 
 <p class="definition">Definition in file <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html">ErriezOregonTHN128Transmit.c</a>.</p>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a694b777f5ed3cb60c1eeaa1949efa364"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a694b777f5ed3cb60c1eeaa1949efa364">&#9670;&nbsp;</a></span>RF_TX_PIN_DISABLE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RF_TX_PIN_DISABLE</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{           \</div><div class="line">    if ((_rfTxPort &gt;= 0) &amp;&amp; (_rfTxBit &gt;= 0)) {      \</div><div class="line">        *portModeRegister(_rfTxPort) &amp;= ~_rfTxBit;  \</div><div class="line">    }                                               \</div><div class="line">}</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a4169bafe4d4f7e2feb774a3c7abcb4d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4169bafe4d4f7e2feb774a3c7abcb4d2">&#9670;&nbsp;</a></span>RF_TX_PIN_INIT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RF_TX_PIN_INIT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">rfTxPin</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{            \</div><div class="line">    _rfTxPort = digitalPinToPort(rfTxPin);          \</div><div class="line">    _rfTxBit = digitalPinToBitMask(rfTxPin);        \</div><div class="line">    *portModeRegister(_rfTxPort) |= _rfTxBit;       \</div><div class="line">}</div></div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a482894ac17d2460a6d359332776e32c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a482894ac17d2460a6d359332776e32c9">&#9670;&nbsp;</a></span>OregonTHN128_Transmit()</h2>
 
@@ -188,7 +152,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_err
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html#l00195">195</a> of file <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html">ErriezOregonTHN128Transmit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html#l00226">226</a> of file <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html">ErriezOregonTHN128Transmit.c</a>.</p>
 
 </div>
 </div>
@@ -209,14 +173,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_err
 </div><div class="memdoc">
 
 <p>Transmit begin. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Connect rfTxPin to any DIGITAL pin </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rfTxPin</td><td>Arduino transmit pin </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html#l00138">138</a> of file <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html">ErriezOregonTHN128Transmit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html#l00169">169</a> of file <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html">ErriezOregonTHN128Transmit.c</a>.</p>
 
 </div>
 </div>
@@ -239,7 +203,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_err
 <p>Disable transmit. </p>
 <p>Set transmit pin to input </p>
 
-<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html#l00149">149</a> of file <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html">ErriezOregonTHN128Transmit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html#l00180">180</a> of file <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html">ErriezOregonTHN128Transmit.c</a>.</p>
 
 </div>
 </div>
@@ -267,7 +231,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_err
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html#l00160">160</a> of file <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html">ErriezOregonTHN128Transmit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html#l00191">191</a> of file <a class="el" href="_erriez_oregon_t_h_n128_transmit_8c_source.html">ErriezOregonTHN128Transmit.c</a>.</p>
 
 </div>
 </div>

@@ -91,34 +91,26 @@ Include dependency graph for ErriezOregonTHN128.c:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a19e41ba0daf8c97ebd71859f1b17da49"><td class="memItemLeft" align="right" valign="top"><a id="a19e41ba0daf8c97ebd71859f1b17da49"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SET_ROL_ADDR</b>(x)&#160;&#160;&#160;(((x) &amp; 0x07) &lt;&lt; 0)</td></tr>
-<tr class="separator:a19e41ba0daf8c97ebd71859f1b17da49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4b9c9ad444458f8ab0d4dbd82c2941b"><td class="memItemLeft" align="right" valign="top"><a id="af4b9c9ad444458f8ab0d4dbd82c2941b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GET_ROL_ADDR</b>(x)&#160;&#160;&#160;(((x) &amp; 0x07) &lt;&lt; 0)</td></tr>
-<tr class="separator:af4b9c9ad444458f8ab0d4dbd82c2941b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89d84224691bdf5d18f72c1f10a97b16"><td class="memItemLeft" align="right" valign="top"><a id="a89d84224691bdf5d18f72c1f10a97b16"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SET_CHANNEL</b>(x)&#160;&#160;&#160;((((x) - 1) &amp; 0x03) &lt;&lt; 6)</td></tr>
-<tr class="separator:a89d84224691bdf5d18f72c1f10a97b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7780b6c2efd7d05421f64149330d43c"><td class="memItemLeft" align="right" valign="top"><a id="ac7780b6c2efd7d05421f64149330d43c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GET_CHANNEL</b>(x)&#160;&#160;&#160;((((x) &gt;&gt; 6) &amp; 0x03) + 1)</td></tr>
-<tr class="separator:ac7780b6c2efd7d05421f64149330d43c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62e284c6d0a4c855f704aecad873b01e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>SET_TEMP</b>(x)</td></tr>
-<tr class="separator:a62e284c6d0a4c855f704aecad873b01e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a136c20c4e4312d1e6614def3b4de9b6c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>GET_TEMP</b>(x)</td></tr>
-<tr class="separator:a136c20c4e4312d1e6614def3b4de9b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23ba328b586aa404188bf6dbcac1dc91"><td class="memItemLeft" align="right" valign="top"><a id="a23ba328b586aa404188bf6dbcac1dc91"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIGN_BIT</b>&#160;&#160;&#160;(1UL &lt;&lt; 21)</td></tr>
-<tr class="separator:a23ba328b586aa404188bf6dbcac1dc91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74b0414c0f52ae13285fddb474163fdd"><td class="memItemLeft" align="right" valign="top"><a id="a74b0414c0f52ae13285fddb474163fdd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LOW_BAT_BIT</b>&#160;&#160;&#160;(1UL &lt;&lt; 23)</td></tr>
-<tr class="separator:a74b0414c0f52ae13285fddb474163fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08f09f9c179b48a4eb4adeb1cbc72316"><td class="memItemLeft" align="right" valign="top"><a id="a08f09f9c179b48a4eb4adeb1cbc72316"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SET_CRC</b>(x)&#160;&#160;&#160;((uint32_t)(x) &lt;&lt; 24)</td></tr>
-<tr class="separator:a08f09f9c179b48a4eb4adeb1cbc72316"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a340577f0a5c7ef68bca4300b7b9c2dd8"><td class="memItemLeft" align="right" valign="top"><a id="a340577f0a5c7ef68bca4300b7b9c2dd8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GET_CRC</b>(x)&#160;&#160;&#160;((x) &gt;&gt; 24)</td></tr>
-<tr class="separator:a340577f0a5c7ef68bca4300b7b9c2dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga19e41ba0daf8c97ebd71859f1b17da49"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___bit.html#ga19e41ba0daf8c97ebd71859f1b17da49">SET_ROL_ADDR</a>(x)&#160;&#160;&#160;(((x) &amp; 0x07) &lt;&lt; 0)</td></tr>
+<tr class="separator:ga19e41ba0daf8c97ebd71859f1b17da49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf4b9c9ad444458f8ab0d4dbd82c2941b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___bit.html#gaf4b9c9ad444458f8ab0d4dbd82c2941b">GET_ROL_ADDR</a>(x)&#160;&#160;&#160;(((x) &amp; 0x07) &lt;&lt; 0)</td></tr>
+<tr class="separator:gaf4b9c9ad444458f8ab0d4dbd82c2941b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga89d84224691bdf5d18f72c1f10a97b16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___bit.html#ga89d84224691bdf5d18f72c1f10a97b16">SET_CHANNEL</a>(x)&#160;&#160;&#160;((((x) - 1) &amp; 0x03) &lt;&lt; 6)</td></tr>
+<tr class="separator:ga89d84224691bdf5d18f72c1f10a97b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac7780b6c2efd7d05421f64149330d43c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___bit.html#gac7780b6c2efd7d05421f64149330d43c">GET_CHANNEL</a>(x)&#160;&#160;&#160;((((x) &gt;&gt; 6) &amp; 0x03) + 1)</td></tr>
+<tr class="separator:gac7780b6c2efd7d05421f64149330d43c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga62e284c6d0a4c855f704aecad873b01e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___bit.html#ga62e284c6d0a4c855f704aecad873b01e">SET_TEMP</a>(x)</td></tr>
+<tr class="separator:ga62e284c6d0a4c855f704aecad873b01e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga136c20c4e4312d1e6614def3b4de9b6c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___bit.html#ga136c20c4e4312d1e6614def3b4de9b6c">GET_TEMP</a>(x)</td></tr>
+<tr class="separator:ga136c20c4e4312d1e6614def3b4de9b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga23ba328b586aa404188bf6dbcac1dc91"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___bit.html#ga23ba328b586aa404188bf6dbcac1dc91">SIGN_BIT</a>&#160;&#160;&#160;(1UL &lt;&lt; 21)</td></tr>
+<tr class="separator:ga23ba328b586aa404188bf6dbcac1dc91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga74b0414c0f52ae13285fddb474163fdd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___bit.html#ga74b0414c0f52ae13285fddb474163fdd">LOW_BAT_BIT</a>&#160;&#160;&#160;(1UL &lt;&lt; 23)</td></tr>
+<tr class="separator:ga74b0414c0f52ae13285fddb474163fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga08f09f9c179b48a4eb4adeb1cbc72316"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___bit.html#ga08f09f9c179b48a4eb4adeb1cbc72316">SET_CRC</a>(x)&#160;&#160;&#160;((uint32_t)(x) &lt;&lt; 24)</td></tr>
+<tr class="separator:ga08f09f9c179b48a4eb4adeb1cbc72316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga340577f0a5c7ef68bca4300b7b9c2dd8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___bit.html#ga340577f0a5c7ef68bca4300b7b9c2dd8">GET_CRC</a>(x)&#160;&#160;&#160;((x) &gt;&gt; 24)</td></tr>
+<tr class="separator:ga340577f0a5c7ef68bca4300b7b9c2dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -140,48 +132,7 @@ Functions</h2></td></tr>
 <p>Source: <a href="https://github.com/Erriez/ErriezOregonTHN128">https://github.com/Erriez/ErriezOregonTHN128</a> Documentation: <a href="https://erriez.github.io/ErriezOregonTHN128">https://erriez.github.io/ErriezOregonTHN128</a> </p>
 
 <p class="definition">Definition in file <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html">ErriezOregonTHN128.c</a>.</p>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a136c20c4e4312d1e6614def3b4de9b6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a136c20c4e4312d1e6614def3b4de9b6c">&#9670;&nbsp;</a></span>GET_TEMP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GET_TEMP</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">(((((x) &gt;&gt; 16) &amp; 0x0f) * 100) + \</div><div class="line">                            ((((x) &gt;&gt; 12) &amp; 0x0f) * 10) + \</div><div class="line">                            (((x) &gt;&gt; 8) &amp; 0x0f))</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html#l00047">47</a> of file <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html">ErriezOregonTHN128.c</a>.</p>
-
-</div>
-</div>
-<a id="a62e284c6d0a4c855f704aecad873b01e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62e284c6d0a4c855f704aecad873b01e">&#9670;&nbsp;</a></span>SET_TEMP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SET_TEMP</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">((((((uint32_t)(x) / 100) % 10)) &lt;&lt; 16) | \</div><div class="line">                            ((((uint32_t)(x) / 10) % 10) &lt;&lt; 12) | \</div><div class="line">                            (((x) % 10) &lt;&lt; 8))</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html#l00044">44</a> of file <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html">ErriezOregonTHN128.c</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="ae9f448ad8456de4753c7edd6607666f3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae9f448ad8456de4753c7edd6607666f3">&#9670;&nbsp;</a></span>OregonTHN128_CheckCRC()</h2>
 
@@ -207,7 +158,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true: Success, false: error </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html#l00086">86</a> of file <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html">ErriezOregonTHN128.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html#l00101">101</a> of file <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html">ErriezOregonTHN128.c</a>.</p>
 
 </div>
 </div>
@@ -236,7 +187,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Output </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html#l00126">126</a> of file <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html">ErriezOregonTHN128.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html#l00141">141</a> of file <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html">ErriezOregonTHN128.c</a>.</p>
 
 </div>
 </div>
@@ -276,7 +227,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>CRC true: Success, false: error </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html#l00165">165</a> of file <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html">ErriezOregonTHN128.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html#l00180">180</a> of file <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html">ErriezOregonTHN128.c</a>.</p>
 
 </div>
 </div>
@@ -322,7 +273,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html#l00103">103</a> of file <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html">ErriezOregonTHN128.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html#l00118">118</a> of file <a class="el" href="_erriez_oregon_t_h_n128_8c_source.html">ErriezOregonTHN128.c</a>.</p>
 
 </div>
 </div>
