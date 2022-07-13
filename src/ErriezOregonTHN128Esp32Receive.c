@@ -31,7 +31,7 @@
  */
 
 #include <Arduino.h>
-#include <avr/interrupt.h>
+// #include <avr/interrupt.h> // invalid on esp32
 
 #include "ErriezOregonTHN128Esp32Receive.h"
 
@@ -214,7 +214,7 @@ static void handleSpace()
 /*!
  * \brief RF pin level change
  */
-void rfPinChange(void)
+void IRAM_ATTR rfPinChange(void)
 {
     uint32_t tNow;
     uint16_t _tPulseLength;

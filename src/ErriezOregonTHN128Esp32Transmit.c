@@ -31,7 +31,7 @@
  */
 
 #include <Arduino.h>
-#include <util/delay.h>
+// #include <util/delay.h> // invalid on esp32
 #include "ErriezOregonTHN128Esp32Transmit.h"
 
 /* Function prototypes */

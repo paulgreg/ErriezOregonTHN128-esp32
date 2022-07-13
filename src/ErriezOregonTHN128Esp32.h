@@ -26,9 +26,10 @@
 #define ERRIEZ_OREGON_THN128_H_
 
 /* Check platform */
-#if !defined(AVR)
-#error "Platform not supported."
-#endif
+// disabled for esp32
+// #if !defined(AVR)
+// #error "Platform not supported."
+// #endif
 
 #ifdef __cplusplus
 extern "C" {
