@@ -24,7 +24,7 @@
 
 #include <Arduino.h>
 #include <LowPower.h>
-#include <ErriezOregonTHN128Receive.h>
+#include <ErriezOregonTHN128Esp32Receive.h>
 #include <Wire.h>
 #include <Adafruit_I2CDevice.h>
 #include <Adafruit_GFX.h>

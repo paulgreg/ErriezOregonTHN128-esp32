@@ -24,7 +24,7 @@
 
 #include <Arduino.h>
 #include <LowPower.h>
-#include <ErriezOregonTHN128Transmit.h>
+#include <ErriezOregonTHN128Esp32Transmit.h>
 
 // Pin defines (Any DIGITAL pin)
 #define RF_TX_PIN           3

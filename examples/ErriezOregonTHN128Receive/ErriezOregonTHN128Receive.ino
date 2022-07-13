@@ -24,7 +24,7 @@
 
 #include <Arduino.h>
 #include <LowPower.h>
-#include <ErriezOregonTHN128Receive.h>
+#include <ErriezOregonTHN128Esp32Receive.h>
 
 // Connect RF receive to Arduino pin 2 (INT0) or pin 3 (INT1)
 #define RF_RX_PIN     2

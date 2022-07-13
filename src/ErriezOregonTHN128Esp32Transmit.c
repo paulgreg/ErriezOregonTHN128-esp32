@@ -23,7 +23,7 @@
  */
 
 /*!
- * \file ErriezOregonTHN128Transmit.c
+ * \file ErriezOregonTHN128Esp32Transmit.c
  * \brief Oregon THN128 433MHz temperature transmit library for Arduino
  * \details
  *      Source:         https://github.com/Erriez/ErriezOregonTHN128
@@ -32,7 +32,7 @@
 
 #include <Arduino.h>
 #include <util/delay.h>
-#include "ErriezOregonTHN128Transmit.h"
+#include "ErriezOregonTHN128Esp32Transmit.h"
 
 /* Function prototypes */
 void delay100ms(void) __attribute__((weak));

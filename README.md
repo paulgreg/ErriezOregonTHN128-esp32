@@ -65,7 +65,7 @@ Data (see header file [ErriezOregonTHN128Receive.h](https://github.com/Erriez/Er
 
 ```c++
 #include <LowPower.h>
-#include <ErriezOregonTHN128Receive.h>
+#include <ErriezOregonTHN128Esp32Receive.h>
 
 // Connect RF receive to Arduino pin 2 (INT0) or pin 3 (INT1)
 #define RF_RX_PIN     2
@@ -141,7 +141,7 @@ void loop()
 
 ```c++
 #include <LowPower.h>
-#include <ErriezOregonTHN128Transmit.h>
+#include <ErriezOregonTHN128Esp32Transmit.h>
 
 // Pin defines (Any DIGITAL pin)
 #define RF_TX_PIN           3

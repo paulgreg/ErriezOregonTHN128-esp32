@@ -23,7 +23,7 @@
  */
 
 /*!
- * \file ErriezOregonTHN128Receive.h
+ * \file ErriezOregonTHN128Esp32Receive.h
  * \brief Oregon THN128 433MHz temperature receive library for Arduino
  * \details
  *      Source:         https://github.com/Erriez/ErriezOregonTHN128
@@ -87,7 +87,7 @@
 #define ERRIEZ_OREGON_THN128_RECEIVER_H_
 
 #include <stdint.h>
-#include "ErriezOregonTHN128.h"
+#include "ErriezOregonTHN128Esp32.h"
 
 #ifdef __cplusplus
 extern "C" {

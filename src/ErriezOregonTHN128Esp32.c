@@ -23,7 +23,7 @@
  */
 
 /*!
- * \file ErriezOregonTHN128.c
+ * \file ErriezOregonTHN128Esp32.c
  * \brief Oregon THN128 433MHz temperature transmit/receive library for Arduino
  * \details
  *      Source:         https://github.com/Erriez/ErriezOregonTHN128
@@ -32,7 +32,7 @@
 
 #include <string.h>
 #include <stdio.h>
-#include "ErriezOregonTHN128.h"
+#include "ErriezOregonTHN128Esp32.h"
 
 /*!
  * \defgroup Bit data macro's
