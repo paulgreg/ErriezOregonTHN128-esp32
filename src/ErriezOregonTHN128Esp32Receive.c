@@ -32,7 +32,6 @@
 
 #include <Arduino.h>
 // #include <avr/interrupt.h> // invalid on esp32
-#include "esp_timer.h"
 
 #include "ErriezOregonTHN128Esp32Receive.h"
 
@@ -217,7 +216,7 @@ static void handleSpace()
  */
 void IRAM_ATTR rfPinChange(void)
 {
-    int64_t tNow; // uint32_t tNow;
+    uint32_t tNow;
     uint16_t _tPulseLength;
     uint8_t rfPinHigh;
 
@@ -227,8 +226,7 @@ void IRAM_ATTR rfPinChange(void)
     }
 
     /* Read absolute pulse time in us for sync */
-    tNow = esp_timer_get_time(); // tNow = micros();
-
+    tNow = micros();
     if (tNow > _tPulseBegin) {
         _tPulseLength = tNow - _tPulseBegin;
     } else {
